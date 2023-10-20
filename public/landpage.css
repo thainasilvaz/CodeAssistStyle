@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+/* primeira seção*/
+body{
+  height: 100vh;
+  font-family: 'Tilt Neon', sans-serif;
+}
+
+a{
+  padding: .9rem;
+  font-size: 16px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+
+.btn-action{
+  background-color: #8E05C2;
+  color: white;
+}
+
+.btn-action:hover{
+  background-color: transparent;
+  border: 2px solid #8E05C2;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+section{
+  padding: 8rem; /* espaço entre a borda e os elementos*/
+}
+
+.first-section{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
+  flex-wrap: wrap;
+  align-items: center;
+  min-height: 650px;
+}
+
+.first-section > div{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  min-width: 300px;
+}
+
+.fontum{
+  font-size: 1.9rem;
+  color: white;
+}
+
+.box-img-main{
+  max-width: 590px;
+  padding: 1rem;
+}
+
+.img-landpage{
+  border-radius: 40%;
+  width: 100%;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-20px);
+  }
+}
+
+/* segunda seção*/
+.second-section{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
+  flex-wrap: wrap;
+  align-items: center;
+  min-height: 650px;
+}
+
+.second-section > div{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  min-width: 300px;
+}
+
+/* terceira seção*/
+.third-section{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
+  flex-wrap: wrap;
+  align-items: center;
+  min-height: 650px;
+}
+
+.third-section > div{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  min-width: 300px;
+}
+
+/* Quarta seção*/
+.fourth-section{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
+  flex-wrap: wrap;
+  align-items: center;
+  min-height: 650px;
+}
+
+.fourth-section > div{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  min-width: 300px;
+}
+
+/* Quinta seção*/
+.fifth-section{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
+  flex-wrap: wrap;
+  align-items: center;
+  min-height: 650px;
+}
+
+.fifth-section > div{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  min-width: 300px;
+}
